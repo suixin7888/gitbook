@@ -178,6 +178,8 @@ mystr.rstrip()
 mystr.rfind(str, start=0,end=len(mystr) )
 ```
 
+### ![](/assets/18.png) {#rindex}
+
 ### &lt;19&gt;rindex {#rindex}
 
 类似于 index\(\)，不过是从右边开始.
@@ -185,6 +187,8 @@ mystr.rfind(str, start=0,end=len(mystr) )
 ```
 mystr.rindex( str, start=0,end=len(mystr))
 ```
+
+### ![](/assets/19.png) {#partition}
 
 ### &lt;20&gt;partition {#partition}
 
@@ -194,6 +198,8 @@ mystr.rindex( str, start=0,end=len(mystr))
 mystr.partition(str)
 ```
 
+### ![](/assets/20.png) {#rpartition}
+
 ### &lt;21&gt;rpartition {#rpartition}
 
 类似于 partition\(\)函数,不过是从右边开始.
@@ -201,6 +207,8 @@ mystr.partition(str)
 ```
 mystr.rpartition(str)
 ```
+
+### ![](/assets/21.png) {#splitlines}
 
 ### &lt;22&gt;splitlines {#splitlines}
 
@@ -210,6 +218,8 @@ mystr.rpartition(str)
 mystr.splitlines()
 ```
 
+### ![](/assets/22.png) {#isalpha}
+
 ### &lt;23&gt;isalpha {#isalpha}
 
 如果 mystr 所有字符都是字母 则返回 True,否则返回 False
@@ -217,6 +227,8 @@ mystr.splitlines()
 ```
 mystr.isalpha()
 ```
+
+### ![](/assets/23.png) {#isdigit}
 
 ### &lt;24&gt;isdigit {#isdigit}
 
@@ -226,6 +238,8 @@ mystr.isalpha()
 mystr.isdigit()
 ```
 
+### ![](/assets/24.png) {#isalnum}
+
 ### &lt;25&gt;isalnum {#isalnum}
 
 如果 mystr 所有字符都是字母或数字则返回 True,否则返回 False
@@ -233,6 +247,8 @@ mystr.isdigit()
 ```
 mystr.isalnum()
 ```
+
+### ![](/assets/25.png) {#isspace}
 
 ### &lt;26&gt;isspace {#isspace}
 
@@ -242,6 +258,8 @@ mystr.isalnum()
 mystr.isspace()
 ```
 
+### ![](/assets/26.png) {#join}
+
 ### &lt;27&gt;join {#join}
 
 mystr 中每个字符后面插入str,构造出一个新的字符串
@@ -250,5 +268,5 @@ mystr 中每个字符后面插入str,构造出一个新的字符串
 mystr.join(str)
 ```
 
-
+![](/assets/27.png)
 
