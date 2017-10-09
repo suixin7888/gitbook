@@ -4,9 +4,9 @@
 
 * Python基础
 
-* [比较、关系运算符](bi-jiao-3001-guan-xi-yun-suan-fu.md)
+  * [比较、关系运算符](bi-jiao-3001-guan-xi-yun-suan-fu.md)
 
-* [常用数据类型转换](README.md)
+  * [常用数据类型转换](README.md)
 
 
 
