@@ -216,14 +216,23 @@ m
 
 ```py
 >>> dict = {"name":'zhangsan','sex':'m'}
->>> for value in dict.values():
-...     print(value)
+>>> for item in dict.items():
+...     print(item)
 ... 
 ('name','zhangsan')
 ('sex','m')
 ```
 
 #### &lt;4&gt; 遍历字典的key-value（键值对） {#遍历字典的keyvalue（键值对）}
+
+```py
+>>> dict = {"name":'zhangsan','sex':'m'}
+>>> for key,value in dict.items():
+...     print("key=%s,value=%s"%(key,value))
+... 
+key=name,value=zhangsan
+key=sex,value=m
+```
 
 
 
