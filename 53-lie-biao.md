@@ -25,3 +25,11 @@ print(namesList[2])
 
 结果：
 
+```
+xiaoWang
+xiaoZhang
+xiaoHua
+```
+
+
+
