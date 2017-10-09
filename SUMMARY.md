@@ -7,8 +7,8 @@
   * [1.3.判断语句和循环语句](3pan-duan-yu-ju-he-xun-huan-yu-ju.md)
   * [1.4.break和continue](breakhe-continue.md)
   * [1.5.字符串、元组、字典、列表](zi-fu-chuan-3001-yuan-zu-3001-zi-dian-3001-lie-biao.md)
-  * [1.5.1 下标和切片](151-xia-biao-he-qie-pian.md)
-  * [1.5.2 字符串常见操作](152-zi-fu-chuan-chang-jian-cao-zuo.md)
+    * [1.5.1 下标和切片](151-xia-biao-he-qie-pian.md)
+    * [1.5.2 字符串常见操作](152-zi-fu-chuan-chang-jian-cao-zuo.md)
 
 
 
