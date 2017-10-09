@@ -15,7 +15,7 @@ demo：
 跟find\(\)方法一样，只不过如果str不在 mystr中会报一个异常.
 
 ```
-mystr.index(str, start=0, end=len(mystr)) 
+mystr.index(str, start=0, end=len(mystr))
 ```
 
 #### &lt;3&gt;count {#count}
@@ -39,7 +39,7 @@ mystr.replace(str1, str2,  mystr.count(str1))
 以 str 为分隔符切片 mystr，如果 maxsplit有指定值，则仅分隔 maxsplit 个子字符串
 
 ```
-mystr.split(str=" ", 2)  
+mystr.split(str=" ", 2)
 ```
 
 #### &lt;6&gt;capitalize {#capitalize}
@@ -81,7 +81,7 @@ mystr.endswith(obj)
 转换 mystr 中所有大写字符为小写
 
 ```
-mystr.lower()     
+mystr.lower()
 ```
 
 #### &lt;11&gt;upper {#upper}
@@ -89,7 +89,7 @@ mystr.lower()
 转换 mystr 中的小写字母为大写
 
 ```
-mystr.upper() 
+mystr.upper()
 ```
 
 #### &lt;12&gt;ljust {#ljust}
@@ -97,7 +97,7 @@ mystr.upper()
 返回一个原字符串左对齐,并使用空格填充至长度 width 的新字符串
 
 ```
-mystr.ljust(width) 
+mystr.ljust(width)
 ```
 
 #### &lt;13&gt;rjust {#rjust}
@@ -105,7 +105,7 @@ mystr.ljust(width)
 返回一个原字符串右对齐,并使用空格填充至长度 width 的新字符串
 
 ```
-mystr.rjust(width)    
+mystr.rjust(width)
 ```
 
 #### &lt;14&gt;center {#center}
@@ -113,11 +113,9 @@ mystr.rjust(width)
 返回一个原字符串居中,并使用空格填充至长度 width 的新字符串
 
 ```
-mystr.center(width)   
-
+mystr.center(width)
 ```
 
-  
 &lt;15&gt;lstrip
 
 删除 mystr 左边的空白字符
@@ -131,7 +129,7 @@ mystr.lstrip()
 删除 mystr 字符串末尾的空白字符
 
 ```
-mystr.rstrip() 
+mystr.rstrip()
 ```
 
 #### &lt;17&gt;strip {#strip}
@@ -181,7 +179,7 @@ mystr.rpartition(str)
 按照行分隔，返回一个包含各行作为元素的列表
 
 ```
-mystr.splitlines()  
+mystr.splitlines()
 ```
 
 ### &lt;23&gt;isalpha {#isalpha}
@@ -189,7 +187,7 @@ mystr.splitlines()
 如果 mystr 所有字符都是字母 则返回 True,否则返回 False
 
 ```
-mystr.isalpha()  
+mystr.isalpha()
 ```
 
 ### &lt;24&gt;isdigit {#isdigit}
@@ -197,7 +195,7 @@ mystr.isalpha()
 如果 mystr 只包含数字则返回 True 否则返回 False.
 
 ```
-mystr.isdigit() 
+mystr.isdigit()
 ```
 
 ### &lt;25&gt;isalnum {#isalnum}
@@ -205,7 +203,7 @@ mystr.isdigit()
 如果 mystr 所有字符都是字母或数字则返回 True,否则返回 False
 
 ```
-mystr.isalnum() 
+mystr.isalnum()
 ```
 
 ### &lt;26&gt;isspace {#isspace}
@@ -213,7 +211,7 @@ mystr.isalnum()
 如果 mystr 中只包含空格，则返回 True，否则返回 False.
 
 ```
-mystr.isspace()   
+mystr.isspace()
 ```
 
 ### &lt;27&gt;join {#join}
