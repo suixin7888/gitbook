@@ -119,7 +119,6 @@ for tempName in A:
 >>> a.extend(b)
 >>> a
 [1, 2, [3, 4], 3, 4]
-
 ```
 
 #### insert {#insert}
@@ -133,7 +132,7 @@ insert\(index, object\) 在指定位置index前插入元素object
 [0, 3, 1, 2]
 ```
 
-## &lt;2&gt;修改元素\("改"\) {#修改元素改}
+## 2.修改元素\("改"\) {#修改元素改}
 
 修改元素的时候，要通过下标来确定要修改的是哪个元素，然后才能进行修改
 
@@ -153,7 +152,6 @@ A[1] = 'xiaoLu'
 print("-----修改之后，列表A的数据-----")
 for tempName in A:
     print(tempName)
-
 ```
 
 结果:
@@ -167,10 +165,9 @@ for tempName in A:
     xiaoWang
     xiaoLu
     xiaoHua
-
 ```
 
-## &lt;3&gt;查找元素\("查"in, not in, index, count\) {#查找元素查in-not-in-index-count}
+## 3.查找元素\("查"in, not in, index, count\) {#查找元素查in-not-in-index-count}
 
 所谓的查找，就是看看指定的元素是否存在
 
@@ -219,7 +216,7 @@ ValueError: 'a' is not in list
 0
 ```
 
-## &lt;4&gt;删除元素\("删"del, pop, remove\) {#删除元素删del-pop-remove}
+## 4.删除元素\("删"del, pop, remove\) {#删除元素删del-pop-remove}
 
 类比现实生活中，如果某位同学调班了，那么就应该把这个条走后的学生的姓名删除掉；在开发中经常会用到删除这种功能。
 
@@ -261,7 +258,6 @@ for tempName in movieName:
     指环王
     霍比特人
     速度与激情
-
 ```
 
 demo:\(pop\)
@@ -278,7 +274,6 @@ movieName.pop()
 print('------删除之后------')
 for tempName in movieName:
     print(tempName)
-
 ```
 
 结果:
@@ -297,7 +292,6 @@ for tempName in movieName:
     第一滴血
     指环王
     霍比特人
-
 ```
 
 demo:\(remove\)
@@ -332,10 +326,9 @@ for tempName in movieName:
     第一滴血
     霍比特人
     速度与激情
-
 ```
 
-## &lt;5&gt;排序\(sort, reverse\) {#排序sort-reverse}
+## 5.排序\(sort, reverse\) {#排序sort-reverse}
 
 sort方法是将list按特定顺序重新排列，默认为由小到大，参数reverse=True可改为倒序，由大到小。
 
