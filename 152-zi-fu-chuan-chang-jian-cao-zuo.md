@@ -148,6 +148,8 @@ mystr.center(width)
 mystr.lstrip()
 ```
 
+#### ![](/assets/15.png) {#rstrip}
+
 #### &lt;16&gt;rstrip {#rstrip}
 
 删除 mystr 字符串末尾的空白字符
@@ -155,6 +157,8 @@ mystr.lstrip()
 ```
 mystr.rstrip()
 ```
+
+#### ![](/assets/16.png) {#strip}
 
 #### &lt;17&gt;strip {#strip}
 
