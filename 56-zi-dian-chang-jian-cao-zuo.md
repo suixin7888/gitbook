@@ -106,36 +106,36 @@ print('清空后,%s'%info)
 >>> dict = {"name":'zhangsan','sex':'m'}
 >>> len(dict)
 2
->>> 
+>>>
 ```
 
 ### &lt;2&gt;keys {#keys}
 
 返回一个包含字典所有KEY的列表
 
-```
+```py
 >>> dict = {"name":'zhangsan','sex':'m'}
 >>> dict.keys
 ['name','sex']
->>> 
+>>>
 ```
 
 ### &lt;3&gt;values {#values}
 
 返回一个包含字典所有value的列表
 
-```
+```py
 >>> dict = {"name":'zhangsan','sex':'m'}
 >>> dict.values()
 ['zhangsan','m']
->>> 
+>>>
 ```
 
 ### &lt;4&gt;items {#items}
 
 返回一个包含所有（键，值）元祖的列表
 
-```
+```py
 >>> dict = {"name":'zhangsan','sex':'m'}
 >>> dict.items()
 ([('name', 'zhangsan'), ('sex', 'm')])
@@ -145,15 +145,13 @@ print('清空后,%s'%info)
 
 dict.has\_key\(key\)如果key在字典中，返回True，否则返回False
 
-```
+```py
 >>> dict = {"name":'zhangsan','sex':'m'}
 >>> dict.has_key('name')
 True
 >>> dict.has_key('phone')
 False
 ```
-
-
 
 
 
