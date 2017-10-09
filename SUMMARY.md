@@ -12,4 +12,5 @@
 * [5.3 列表](53-lie-biao.md)
 * [5.4 元组](54-yuan-zu.md)
 * [5.5 字典](55-zi-dian.md)
+* [5.6 字典常见操作](56-zi-dian-chang-jian-cao-zuo.md)
 
