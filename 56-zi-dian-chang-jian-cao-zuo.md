@@ -1,6 +1,6 @@
 ## 字典常见 操作1 {#修改元素}
 
-## &lt;1&gt;修改元素 {#修改元素}
+### &lt;1&gt;修改元素
 
 字典的每个元素中的数据是可以修改的，只要通过key找到，即可修改
 
@@ -16,7 +16,7 @@ info['id'] = int(newId)
 print('修改之后的id为%d:'%info['id'])
 ```
 
-## &lt;2&gt;添加元素 {#添加元素}
+### &lt;2&gt;添加元素
 
 demo:访问不存在的元素
 
@@ -51,7 +51,7 @@ print('添加之后的id为:%d'%info['id'])
     添加之后的id为: 188
 ```
 
-## &lt;3&gt;删除元素 {#删除元素}
+### &lt;3&gt;删除元素
 
 对字典进行删除操作，有一下几种：
 
@@ -96,7 +96,7 @@ info.clear()
 print('清空后,%s'%info)
 ```
 
-### 字典 常见操作2 {#len}
+## **字典 常见操作2**
 
 ### &lt;1&gt;len\(\) {#len}
 
@@ -152,6 +152,72 @@ True
 >>> dict.has_key('phone')
 False
 ```
+
+## --遍历--
+
+通过for ... in ...:的语法结构，我们可以遍历字符串、列表、元组、字典等数据结构。
+
+**注意python语法的缩进**
+
+### 字符串遍历
+
+```py
+>>> a_str = "hello itcast"
+>>> for char in a_str:
+...     print(char,end=' ')
+...
+h e l l o   i t c a s t
+
+```
+
+### 列表遍历
+
+```py
+>>> a_list = [1, 2, 3, 4, 5]
+>>> for num in a_list:
+...     print(num,end=' ')
+...
+1 2 3 4 5
+```
+
+### 元组遍历
+
+```py
+>>> a_turple = (1, 2, 3, 4, 5)
+>>> for num in a_turple:
+...     print(num,end=" ")
+1 2 3 4 5
+```
+
+## --字典遍历-- {#字典遍历}
+
+#### &lt;1&gt; 遍历字典的key（键） {#遍历字典的key（键）}
+
+```py
+>>> dict = {"name":'zhangsan','sex':'m'}
+>>> for key in dict.keys():
+...     print(key)
+... 
+name
+sex
+```
+
+#### &lt;2&gt; 遍历字典的value（值） {#遍历字典的value（值）}
+
+```py
+>>> dict = {"name":'zhangsan','sex':'m'}
+>>> for value in dict.values():
+...     print(value)
+... 
+namezhangsan
+m
+```
+
+#### &lt;3&gt; 遍历字典的项（元素） {#遍历字典的项（元素）}
+
+
+
+#### &lt;4&gt; 遍历字典的key-value（键值对） {#遍历字典的keyvalue（键值对）}
 
 
 
