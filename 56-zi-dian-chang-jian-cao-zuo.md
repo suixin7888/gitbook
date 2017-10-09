@@ -167,7 +167,6 @@ False
 ...     print(char,end=' ')
 ...
 h e l l o   i t c a s t
-
 ```
 
 ### 列表遍历
@@ -215,7 +214,14 @@ m
 
 #### &lt;3&gt; 遍历字典的项（元素） {#遍历字典的项（元素）}
 
-
+```py
+>>> dict = {"name":'zhangsan','sex':'m'}
+>>> for value in dict.values():
+...     print(value)
+... 
+('name','zhangsan')
+('sex','m')
+```
 
 #### &lt;4&gt; 遍历字典的key-value（键值对） {#遍历字典的keyvalue（键值对）}
 
