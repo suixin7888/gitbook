@@ -58,6 +58,8 @@ mystr.split(str=" ", 2)
 mystr.capitalize()
 ```
 
+#### ![](/assets/7.png) {#title}
+
 #### &lt;7&gt;title {#title}
 
 把字符串的每个单词首字母大写
@@ -75,6 +77,8 @@ mystr.capitalize()
 ```
 mystr.startswith(obj)
 ```
+
+#### ![](/assets/8.png) {#endswith}
 
 #### &lt;9&gt;endswith {#endswith}
 
