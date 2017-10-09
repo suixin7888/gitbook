@@ -88,6 +88,8 @@ mystr.startswith(obj)
 mystr.endswith(obj)
 ```
 
+#### ![](/assets/9.png) {#lower}
+
 #### &lt;10&gt;lower {#lower}
 
 转换 mystr 中所有大写字符为小写
@@ -95,6 +97,8 @@ mystr.endswith(obj)
 ```
 mystr.lower()
 ```
+
+#### ![](/assets/10.png) {#upper}
 
 #### &lt;11&gt;upper {#upper}
 
@@ -104,6 +108,8 @@ mystr.lower()
 mystr.upper()
 ```
 
+#### ![](/assets/11.png) {#ljust}
+
 #### &lt;12&gt;ljust {#ljust}
 
 返回一个原字符串左对齐,并使用空格填充至长度 width 的新字符串
@@ -111,6 +117,8 @@ mystr.upper()
 ```
 mystr.ljust(width)
 ```
+
+#### ![](/assets/12.png) {#rjust}
 
 #### &lt;13&gt;rjust {#rjust}
 
@@ -120,6 +128,8 @@ mystr.ljust(width)
 mystr.rjust(width)
 ```
 
+#### ![](/assets/13.png) {#center}
+
 #### &lt;14&gt;center {#center}
 
 返回一个原字符串居中,并使用空格填充至长度 width 的新字符串
@@ -128,7 +138,9 @@ mystr.rjust(width)
 mystr.center(width)
 ```
 
-&lt;15&gt;lstrip
+![](/assets/14.png)
+
+#### &lt;15&gt;lstrip {#center}
 
 删除 mystr 左边的空白字符
 
