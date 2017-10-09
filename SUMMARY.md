@@ -14,8 +14,9 @@
 
 * [5.字符串、元组、字典、列表](zi-fu-chuan-3001-yuan-zu-3001-zi-dian-3001-lie-biao.md)
 
-* [5.1 下标和切片](151-xia-biao-he-qie-pian.md)
-* [5.2 字符串常见操作](152-zi-fu-chuan-chang-jian-cao-zuo.md)
+  * [5.1 下标和切片](151-xia-biao-he-qie-pian.md)
+
+  * [5.2 字符串常见操作](152-zi-fu-chuan-chang-jian-cao-zuo.md)
 
 
 
