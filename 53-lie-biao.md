@@ -81,9 +81,9 @@ while i<length:
 
 ## &lt;4&gt;列表的相关操作
 
-#### 1.添加元素\("增"append, extend, insert\)
+### 1.添加元素\("增"append, extend, insert\)
 
-##### append
+#### append
 
 通过append可以向列表添加元素
 
@@ -132,7 +132,7 @@ insert\(index, object\) 在指定位置index前插入元素object
 [0, 3, 1, 2]
 ```
 
-## 2.修改元素\("改"\) {#修改元素改}
+### 2.修改元素\("改"\)
 
 修改元素的时候，要通过下标来确定要修改的是哪个元素，然后才能进行修改
 
@@ -167,7 +167,7 @@ for tempName in A:
     xiaoHua
 ```
 
-## 3.查找元素\("查"in, not in, index, count\) {#查找元素查in-not-in-index-count}
+### 3.查找元素\("查"in, not in, index, count\)
 
 所谓的查找，就是看看指定的元素是否存在
 
@@ -216,7 +216,7 @@ ValueError: 'a' is not in list
 0
 ```
 
-## 4.删除元素\("删"del, pop, remove\) {#删除元素删del-pop-remove}
+### 4.删除元素\("删"del, pop, remove\)
 
 类比现实生活中，如果某位同学调班了，那么就应该把这个条走后的学生的姓名删除掉；在开发中经常会用到删除这种功能。
 
@@ -328,7 +328,7 @@ for tempName in movieName:
     速度与激情
 ```
 
-## 5.排序\(sort, reverse\) {#排序sort-reverse}
+### 5.排序\(sort, reverse\)
 
 sort方法是将list按特定顺序重新排列，默认为由小到大，参数reverse=True可改为倒序，由大到小。
 
@@ -349,5 +349,51 @@ reverse方法是将list逆置。
 [4, 3, 2, 1]
 ```
 
+## &lt;5&gt;列表的嵌套
 
+## 1. 列表嵌套 {#1-列表嵌套}
+
+类似while循环的嵌套，列表也是支持嵌套的
+
+一个列表中的元素又是一个列表，那么这就是列表的嵌套
+
+```py
+schoolNames = [['北京大学','清华大学'],
+    ['南开大学','天津大学','天津师范大学'],
+    ['山东大学','中国海洋大学']]
+```
+
+## 2. 应用 {#2-应用}
+
+一个学校，有3个办公室，现在有8位老师等待工位的分配，请编写程序，完成随机的分配
+
+```py
+#encoding=utf-8
+
+import random
+
+# 定义一个列表用来保存3个办公室
+offices = [[],[],[]]
+
+# 定义一个列表用来存储8位老师的名字
+names = ['A','B','C','D','E','F','G','H']
+
+i = 0
+for name in names:
+    index = random.randint(0,2)    
+    offices[index].append(name)
+
+i = 1
+for tempNames in offices:
+    print('办公室%d的人数为:%d'%(i,len(tempNames)))
+    i+=1
+    for name in tempNames:
+        print("%s"%name,end='')
+    print("\n")
+    print("-"*20)
+```
+
+运行结果如下：
+
+![](/assets/28.png)
 
