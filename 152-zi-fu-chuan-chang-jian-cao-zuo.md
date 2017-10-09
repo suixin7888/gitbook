@@ -18,6 +18,8 @@ demo：
 mystr.index(str, start=0, end=len(mystr))
 ```
 
+#### ![](/assets/3.png) {#count}
+
 #### &lt;3&gt;count {#count}
 
 返回 str在start和end之间 在 mystr里面出现的次数
@@ -25,6 +27,8 @@ mystr.index(str, start=0, end=len(mystr))
 ```
 mystr.count(str, start=0, end=len(mystr))
 ```
+
+#### ![](/assets/4.png) {#replace}
 
 #### &lt;4&gt;replace {#replace}
 
@@ -34,6 +38,8 @@ mystr.count(str, start=0, end=len(mystr))
 mystr.replace(str1, str2,  mystr.count(str1))
 ```
 
+#### ![](/assets/5.png) {#split}
+
 #### &lt;5&gt;split {#split}
 
 以 str 为分隔符切片 mystr，如果 maxsplit有指定值，则仅分隔 maxsplit 个子字符串
@@ -41,6 +47,8 @@ mystr.replace(str1, str2,  mystr.count(str1))
 ```
 mystr.split(str=" ", 2)
 ```
+
+#### ![](/assets/6.png) {#capitalize}
 
 #### &lt;6&gt;capitalize {#capitalize}
 
