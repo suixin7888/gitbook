@@ -1,7 +1,5 @@
 # Summary
 
-* [Introduction](README.md)
-
 Python基础
 
 [1.比较、关系运算符](bi-jiao-3001-guan-xi-yun-suan-fu.md)
