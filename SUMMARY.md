@@ -14,4 +14,5 @@
   * [5.5 字典](55-zi-dian.md)
   * [5.6 字典常见操作](56-zi-dian-chang-jian-cao-zuo.md)
 * [6.函数](6han-shu.md)
+* [6.1 函数的定义和调用](61-han-shu-de-ding-yi-he-diao-yong.md)
 
