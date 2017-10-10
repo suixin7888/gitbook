@@ -20,6 +20,6 @@
   * [6.4 函数参数](64-han-shu-can-shu.md)
   * [6.5 递归函数](65-di-gui-han-shu.md)
   * [6.6 匿名函数](66-ni-ming-han-shu.md)
-
-
+* [7.文件操作](7wen-jian-cao-zuo.md)
+* 8.面向对象
 
