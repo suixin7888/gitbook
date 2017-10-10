@@ -15,4 +15,5 @@
   * [5.6 字典常见操作](56-zi-dian-chang-jian-cao-zuo.md)
 * [6.函数](6han-shu.md)
 * [6.1 函数的定义和调用](61-han-shu-de-ding-yi-he-diao-yong.md)
+* [局部变量和全局变量](ju-bu-bian-liang-he-quan-ju-bian-liang.md)
 
