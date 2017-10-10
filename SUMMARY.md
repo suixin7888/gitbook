@@ -19,5 +19,4 @@
 * [6.3 函数返回值](63-han-shu-fan-hui-zhi.md)
 * [6.4 函数参数](64-han-shu-can-shu.md)
 * [6.5 递归函数](65-di-gui-han-shu.md)
-* [6.6 匿名函数](66-ni-ming-han-shu.md)
 
