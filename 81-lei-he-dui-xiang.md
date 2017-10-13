@@ -38,6 +38,9 @@ BMW.toot()
 print(BMW.color)
 print(BMW.wheelNum)
 ```
+注释：
+
+![suixin](http://ox376n2jk.bkt.clouddn.com/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A11.png    )
 
 
 
