@@ -25,4 +25,5 @@
 * [8.1 类和对象](81-lei-he-dui-xiang.md)
 * [8.2 \_\_init\_\_方法](init-fang-fa.md)
 * [8.3 应用:老王开枪](83-ying-75283a-lao-wang-kai-qiang.md)
+* [8.4 私有属性](84-si-you-shu-xing.md)
 
