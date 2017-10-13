@@ -22,4 +22,5 @@
   * [6.6 匿名函数](66-ni-ming-han-shu.md)
 * [7.文件操作](7wen-jian-cao-zuo.md)
 * [8.面向对象](8mian-xiang-dui-xiang.md)
+* [8.1 类和对象](81-lei-he-dui-xiang.md)
 
