@@ -91,5 +91,55 @@ print(BMW)
 在python中方法名如果是__xxxx__()的，那么就有特殊的功能，因此叫做“魔法”方法
 当使用print输出对象的时候，只要自己定义了__str__(self)方法，那么就会打印从在这个方法中return的数据
 
+### \_\_del\_\_()方法
+
+创建对象后，python解释器默认调用\_\_init\_\_()方法；
+
+当删除一个对象时，python解释器也会默认调用一个方法，这个方法为\_\_del\_\_()方法
+
+```py
+import time
+class Animal(object):
+
+    # 初始化方法
+    # 创建完对象后会自动被调用
+    def __init__(self, name):
+        print('__init__方法被调用')
+        self.__name = name
+
+
+    # 析构方法
+    # 当对象被删除时，会自动被调用
+    def __del__(self):
+        print("__del__方法被调用")
+        print("%s对象马上被干掉了..."%self.__name)
+
+# 创建对象
+dog = Animal("哈皮狗")
+
+# 删除对象
+del dog
+
+
+cat = Animal("波斯猫")
+cat2 = cat
+cat3 = cat
+
+print("---马上 删除cat对象")
+del cat
+print("---马上 删除cat2对象")
+del cat2
+print("---马上 删除cat3对象")
+del cat3
+
+print("程序2秒钟后结束")
+time.sleep(2)
+```
+
+总结
+
+* 当有1个变量保存了对象的引用时，此对象的引用计数就会加1
+* 当使用del删除变量指向的对象时，如果对象的引用计数不会1，比如3，那么此时只会让这个引用计数减1，即变为2，当再次调用del时，变为1，如果再调用1次del，此时会真的把对象进行删除
+
 
 
