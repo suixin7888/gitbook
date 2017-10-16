@@ -5,6 +5,7 @@
 所谓多态：定义时的类型和运行时的类型不一样，此时就成为多态
 
 * Python伪代码实现Java或C#的多态
+
 ```py
 class F1(object):
     def show(self):
@@ -34,6 +35,7 @@ s2_obj = S2()
 Func(s2_obj) # 在Func函数中传入Ss类的对象 ss_obj，执行 Ss 的show方法，结果：S2.show
 ```
 * Python “鸭子类型”
+
 ```py
 class F1(object):
     def show(self):
