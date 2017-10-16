@@ -28,4 +28,5 @@
   * [8.4 私有属性](84-si-you-shu-xing.md)
   * [8.5 继承](85-ji-cheng.md)
 * [8.6 多态](86-duo-tai.md)
+* [8.7 类属性、实例属性](87-lei-shu-xing-3001-shi-li-shu-xing.md)
 
