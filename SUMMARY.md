@@ -32,4 +32,5 @@
   * [8.8 静态方法和类方法](88-jing-tai-fang-fa-he-lei-fang-fa.md)
 * [8.9 单例模式](89-dan-li-mo-shi.md)
 * [8.10 异常](810-yi-chang.md)
+* [8.11 模块的导入](811-mo-kuai.md)
 
