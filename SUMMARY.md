@@ -27,4 +27,5 @@
   * [8.3 应用:老王开枪](83-ying-75283a-lao-wang-kai-qiang.md)
   * [8.4 私有属性](84-si-you-shu-xing.md)
   * [8.5 继承](85-ji-cheng.md)
+* [8.6 多态](86-duo-tai.md)
 
