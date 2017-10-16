@@ -33,4 +33,5 @@
 * [8.9 单例模式](89-dan-li-mo-shi.md)
 * [8.10 异常](810-yi-chang.md)
 * [8.11 模块的导入](811-mo-kuai.md)
+* [8.12 模块的制作](812-mo-kuai-de-zhi-zuo.md)
 
