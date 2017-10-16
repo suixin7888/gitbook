@@ -30,10 +30,12 @@
   * [8.6 多态](86-duo-tai.md)
   * [8.7 类属性、实例属性](87-lei-shu-xing-3001-shi-li-shu-xing.md)
   * [8.8 静态方法和类方法](88-jing-tai-fang-fa-he-lei-fang-fa.md)
-* [8.9 单例模式](89-dan-li-mo-shi.md)
-* [8.10 异常](810-yi-chang.md)
-* [8.11 模块的导入](811-mo-kuai.md)
-* [8.12 模块的制作](812-mo-kuai-de-zhi-zuo.md)
-* [8.13 python中的包](813-pythonzhong-de-bao.md)
-* [8.14 模块的发布、安装、使用](814-mo-kuai-de-fa-bu-3001-an-zhuang-3001-shi-yong.md)
+  * [8.9 单例模式](89-dan-li-mo-shi.md)
+  * [8.10 异常](810-yi-chang.md)
+  * [8.11 模块的导入](811-mo-kuai.md)
+  * [8.12 模块的制作](812-mo-kuai-de-zhi-zuo.md)
+  * [8.13 python中的包](813-pythonzhong-de-bao.md)
+  * [8.14 模块的发布、安装、使用](814-mo-kuai-de-fa-bu-3001-an-zhuang-3001-shi-yong.md)
+
+
 
