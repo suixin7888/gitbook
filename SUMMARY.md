@@ -36,6 +36,5 @@
   * [8.12 模块的制作](812-mo-kuai-de-zhi-zuo.md)
   * [8.13 python中的包](813-pythonzhong-de-bao.md)
   * [8.14 模块的发布、安装、使用](814-mo-kuai-de-fa-bu-3001-an-zhuang-3001-shi-yong.md)
-
-
+* [扩展](kuo-zhan.md)
 
