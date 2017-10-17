@@ -1,7 +1,7 @@
 # Summary
 
 * [前言](README.md)
-* [Python基础](pythonji-chu.md)
+* [第一章：Python基础](pythonji-chu.md)
 * [1.比较、关系运算符](bi-jiao-3001-guan-xi-yun-suan-fu.md)
 * [2.常用数据类型转换](chang-yong-shu-ju-lei-xing-zhuan-huan.md)
 * [3.判断语句和循环语句](3pan-duan-yu-ju-he-xun-huan-yu-ju.md)
@@ -37,4 +37,6 @@
   * [8.13 python中的包](813-pythonzhong-de-bao.md)
   * [8.14 模块的发布、安装、使用](814-mo-kuai-de-fa-bu-3001-an-zhuang-3001-shi-yong.md)
 * [扩展](kuo-zhan.md)
+* [第二章：python核心编程](di-er-zhang-ff1a-python-he-xin-bian-cheng.md)
+* [1.元类](1yuan-lei.md)
 
