@@ -1,4 +1,8 @@
-#  {#常用的数据类型转换}
+```
+{
+        "plugins": ["toggle-chapters"]
+}
+```
 
-python笔记，以方便后续查看。
+
 
