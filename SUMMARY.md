@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [前言](README.md)
 * [一：Python基础](pythonji-chu.md)
 * [1.比较、关系运算符](bi-jiao-3001-guan-xi-yun-suan-fu.md)
 * [2. 常用数据类型转换](chang-yong-shu-ju-lei-xing-zhuan-huan.md)
