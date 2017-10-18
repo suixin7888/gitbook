@@ -43,7 +43,7 @@
 * [3.生成器](3sheng-cheng-qi.md)
 * [4.迭代器](4die-dai-qi.md)
 * [5.闭包](5bi-bao.md)
-* 6. 装饰器
+* 6.装饰器
 
 
 
