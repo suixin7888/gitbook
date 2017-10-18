@@ -40,8 +40,7 @@
 * [第二章：python核心编程](di-er-zhang-ff1a-python-he-xin-bian-cheng.md)
   * [1. 元类](1yuan-lei.md)
   * [2. python是动态语言](2pythonshi-dong-tai-yu-yan.md)
-  * 3. 生成
-  * 1. 生成器
+  * [2. python是动态语言](#)
 
 
 
