@@ -42,4 +42,5 @@
 * [2. python是动态语言](2pythonshi-dong-tai-yu-yan.md)
 * [3.生成器](3sheng-cheng-qi.md)
 * [4.迭代器](4die-dai-qi.md)
+* [5.闭包](5bi-bao.md)
 
