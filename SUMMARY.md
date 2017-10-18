@@ -38,8 +38,7 @@
   * [8.14 模块的发布、安装、使用](814-mo-kuai-de-fa-bu-3001-an-zhuang-3001-shi-yong.md)
 * [9.  扩展](kuo-zhan.md)
 * [第二章：python核心编程](di-er-zhang-ff1a-python-he-xin-bian-cheng.md)
+  * [生成器](di-er-zhang-ff1a-python-he-xin-bian-cheng/sheng-cheng-qi.md)
 * [1. 元类](1yuan-lei.md)
 * [2. python是动态语言](2pythonshi-dong-tai-yu-yan.md)
-
-
 
