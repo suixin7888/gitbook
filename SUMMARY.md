@@ -50,4 +50,5 @@
   * [1.9. 进制间的转换](9jin-zhi-jian-de-zhuan-huan.md)
   * [1.10. 私有化](10si-you-hua.md)
   * [1.11 属性property](111-shu-xing-property.md)
+* [1.12. 垃圾回收](112-la-ji-hui-shou.md)
 
