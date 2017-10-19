@@ -48,5 +48,5 @@
 * [8.拷贝和is](8kao-bei-he-is.md)
 * [9.进制间的转换](9jin-zhi-jian-de-zhuan-huan.md)
 * [10.私有化](10si-you-hua.md)
-* 11.属性property
+* [11.属性property](11shu-xing-property.md)
 
