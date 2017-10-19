@@ -45,4 +45,5 @@
 * [5.闭包](5bi-bao.md)
 * [6.装饰器](6zhuang-shi-qi.md)
 * [7.导入模块](7dao-ru-mo-kuai.md)
+* [8.拷贝和is](8kao-bei-he-is.md)
 
