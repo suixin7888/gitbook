@@ -240,7 +240,7 @@ foo(3,5)
 sleep(2)
 foo(2,4)
 ```
-### 例3:被装饰的函数有不定长参数
+#### 例3:被装饰的函数有不定长参数
 ```py
 from time import ctime, sleep
 
@@ -258,7 +258,7 @@ foo(3,5,7)
 sleep(2)
 foo(2,4,9)
 ```
-### 例4:装饰器中的return
+#### 例4:装饰器中的return
 ```py
 from time import ctime, sleep
 
@@ -304,7 +304,7 @@ getInfo called at Fri Nov  4 21:55:59 2016
 ----hahah---
 ```
 
-### 例5:装饰器带参数,在原有装饰器的基础上，设置外部变量
+#### 例5:装饰器带参数,在原有装饰器的基础上，设置外部变量
 ```py
 #decorator2.py
 
@@ -338,7 +338,7 @@ too()
 ```py
 foo()==timefun_arg("itcast")(foo)()
 ```
-### 例6:类装饰器（扩展，非重点）
+#### 例6:类装饰器（扩展，非重点）
 
 装饰器函数其实是这样一个接口约束，它必须接受一个callable对象作为参数，然后返回一个callable对象。在Python中一般callable对象都是函数，但也有例外。只要某个对象重写了 __call__() 方法，那么这个对象就是callable的。
 ```py
