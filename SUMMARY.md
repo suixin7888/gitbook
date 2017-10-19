@@ -46,4 +46,7 @@
 * [6.装饰器](6zhuang-shi-qi.md)
 * [7.导入模块](7dao-ru-mo-kuai.md)
 * [8.拷贝和is](8kao-bei-he-is.md)
+* [9.进制间的转换](9jin-zhi-jian-de-zhuan-huan.md)
+* 10.私有化
+* 11.属性property
 
