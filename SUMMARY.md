@@ -51,6 +51,8 @@
   * [1.10. 私有化](10si-you-hua.md)
   * [1.11 属性property](111-shu-xing-property.md)
   * [1.12. 垃圾回收](112-la-ji-hui-shou.md)
-* [1.13. 内建属性](113-nei-jian-shu-xing.md)
-* [1.14. 内建函数](114-nei-jian-han-shu.md)
+  * [1.13. 内建属性](113-nei-jian-shu-xing.md)
+  * [1.14. 内建函数](114-nei-jian-han-shu.md)
+
+
 
