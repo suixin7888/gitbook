@@ -56,4 +56,5 @@
 * [1.15. 集合set](115-ji-he-set.md)
 * [1.16. functools](116-functools.md)
 * [1.17. 模块](117-mo-kuai.md)
+* [1.18. 调试](118-diao-shi.md)
 
