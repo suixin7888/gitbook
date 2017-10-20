@@ -53,9 +53,11 @@
   * [1.12. 垃圾回收](112-la-ji-hui-shou.md)
   * [1.13. 内建属性](113-nei-jian-shu-xing.md)
   * [1.14. 内建函数](114-nei-jian-han-shu.md)
-* [1.15. 集合set](115-ji-he-set.md)
-* [1.16. functools](116-functools.md)
-* [1.17. 模块](117-mo-kuai.md)
-* [1.18. 调试](118-diao-shi.md)
-* [1.19. 编码风格](119-bian-ma-feng-ge.md)
+  * [1.15. 集合set](115-ji-he-set.md)
+  * [1.16. functools](116-functools.md)
+  * [1.17. 模块](117-mo-kuai.md)
+  * [1.18. 调试](118-diao-shi.md)
+  * [1.19. 编码风格](119-bian-ma-feng-ge.md)
+
+
 
