@@ -54,4 +54,5 @@
   * [1.13. 内建属性](113-nei-jian-shu-xing.md)
   * [1.14. 内建函数](114-nei-jian-han-shu.md)
 * [1.15. 集合set](115-ji-he-set.md)
+* [1.16. functools](116-functools.md)
 
