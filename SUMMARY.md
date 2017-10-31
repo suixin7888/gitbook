@@ -62,4 +62,5 @@
   * [2.1 进程的创建-fork](2xi-tong-bian-cheng/21-jin-cheng-de-chuang-5efa-fork.md)
   * [2.2 进程的创建-multiprocessing](22-jin-cheng-de-chuang-5efa-.md)
 * [2.3 进程池](23-jin-cheng-chi.md)
+* [2.4 进程间的通信](24-jin-cheng-jian-de-tong-xin.md)
 
