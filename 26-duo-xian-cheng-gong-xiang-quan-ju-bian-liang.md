@@ -1,5 +1,7 @@
 ## 多线程-共享全局变量
 
+
+
 ```py
 from threading import Thread
 import time
