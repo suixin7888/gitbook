@@ -66,4 +66,5 @@
   * [2.5 多线程](25-duo-xian-cheng.md)
   * [2.6 多线程共享全局变量](26-duo-xian-cheng-gong-xiang-quan-ju-bian-liang.md)
 * [2.7 进程线程的对比](27-jin-cheng-xian-cheng-de-dui-bi.md)
+* [2.8 同步](28-tong-bu.md)
 
