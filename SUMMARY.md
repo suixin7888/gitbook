@@ -64,5 +64,6 @@
   * [2.3 进程池](23-jin-cheng-chi.md)
   * [2.4 进程间的通信](24-jin-cheng-jian-de-tong-xin.md)
   * [2.5 多线程](25-duo-xian-cheng.md)
-* [2.6 多线程共享全局变量](26-duo-xian-cheng-gong-xiang-quan-ju-bian-liang.md)
+  * [2.6 多线程共享全局变量](26-duo-xian-cheng-gong-xiang-quan-ju-bian-liang.md)
+* [2.7 进程线程的对比](27-jin-cheng-xian-cheng-de-dui-bi.md)
 
