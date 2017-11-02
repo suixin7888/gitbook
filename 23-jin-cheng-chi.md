@@ -17,6 +17,7 @@ def worker(msg):
     print(msg,"执行完毕，耗时%0.2f"%(t_stop-t_start))
 
 po=Pool(3) #定义一个进程池，最大进程数3
+
 for i in range(0,10):
     #Pool.apply_async(要调用的目标,(传递给目标的参数元祖,))
     #每次循环将会用空闲出来的子进程去调用目标
