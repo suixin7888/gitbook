@@ -69,5 +69,6 @@
   * [2.8 同步](28-tong-bu.md)
   * [2.9 互斥锁](29-hu-chi-suo.md)
   * [2.10 多线程-非共享数据](210-duo-xian-7a0b-fei-gong-xiang-shu-ju.md)
-* [2.11 死锁和同步](211-si-suo-he-tong-bu.md)
+  * [2.11 死锁和同步](211-si-suo-he-tong-bu.md)
+  * [2.12 生产者和消费者模型](2xi-tong-bian-cheng/212-sheng-chan-zhe-he-xiao-fei-zhe-mo-xing.md)
 
