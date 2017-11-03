@@ -9,10 +9,9 @@
 
 网络中进程之间如何通信？
 
-
 #### 2.什么是socket
 
-socket(简称 套接字) 是进程间通信的一种方式，它与其他进程间通信的一个主要不同是：
+socket\(简称 套接字\) 是进程间通信的一种方式，它与其他进程间通信的一个主要不同是：
 
 它能实现不同主机间的进程间通信，我们网络上各种各样的服务大多都是基于 Socket 来完成通信的
 
@@ -25,15 +24,17 @@ socket(简称 套接字) 是进程间通信的一种方式，它与其他进程�
 ```py
 socket.socket(AddressFamily, Type)
 ```
+
 **说明：**
 
 函数 socket.socket 创建一个 socket，返回该 socket 的描述符，该函数带有两个参数：
 
-* Address Family：可以选择 AF_INET（用于 Internet 进程间通信） 或者 AF_UNIX（用于同一台机器进程间通信）,实际工作中常用AF_INET
+* Address Family：可以选择 AF\_INET（用于 Internet 进程间通信） 或者 AF\_UNIX（用于同一台机器进程间通信）,实际工作中常用AF\_INET
 
-* Type：套接字类型，可以是 SOCK_STREAM（流式套接字，主要用于 TCP 协议）或者 SOCK_DGRAM（数据报套接字，主要用于 UDP 协议）
+* Type：套接字类型，可以是 SOCK\_STREAM（流式套接字，主要用于 TCP 协议）或者 SOCK\_DGRAM（数据报套接字，主要用于 UDP 协议）
 
 创建一个tcp socket（tcp套接字）
+
 ```
 import socket
 
@@ -41,6 +42,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 print 'Socket Created'
 ```
+
 创建一个udp socket（udp套接字）
 
 ```
@@ -85,14 +87,15 @@ udpSocket.close()
 ```
 
 运行现象：
+
 ```
 [root@test shell]# python test.py 
 请输入要发送的数据:haha
 ```
+
 在windows中运行“网络调试助手”：
 
 ![suixin](http://ox376n2jk.bkt.clouddn.com/socket2.png)
-
 
 ## 3.udp网络程序-发送、接收数据
 
@@ -122,14 +125,16 @@ print(recvData)
 #7. 关闭套接字
 udpSocket.close()
 ```
+
 运行结果：
+
 ```
 [root@test shell]# python test.py 
 请输入要发送的数据:hsh
 ('miss', ('192.168.25.168', 8080))
 ```
 
-在windows中运行“网络调试助手”：
+在windows中运行“网络调试助手”：  
 ![suixin](http://ox376n2jk.bkt.clouddn.com/socket3.png)
 
 ## 4.udp网络程序-端口问题
@@ -140,7 +145,6 @@ udpSocket.close()
 
 ![suixin](http://ox376n2jk.bkt.clouddn.com/socket4.png)
 
-
 **说明：**
 
 * 每重新运行一次网络程序，上图中红圈中的数字，不一样的原因在于，这个数字标识这个网络程序，当重新运行时，如果没有确定到底用哪个，系统默认会随机分配
@@ -150,6 +154,7 @@ udpSocket.close()
 为了防止这种情况，引进来了UDP绑定信息
 
 #### 绑定端口号
+
 ```py
 #coding=utf-8
 
@@ -171,12 +176,14 @@ print recvData
 #5. 关闭套接字
 udpSocket.close()
 ```
+
 windows运行调试助手发送消息：
 
 ![suixin](http://ox376n2jk.bkt.clouddn.com/socket5.png)
 
 脚本运行结果：
-``` 
+
+```
 [root@test shell]# python test.py 
 ('I Am robin', ('192.168.25.168', 8080))
 ```
@@ -218,11 +225,13 @@ while True:
 #5. 关闭套接字
 udpSocket.close()
 ```
+
 windows调试助手发送消息：
 
 ![suixin](http://ox376n2jk.bkt.clouddn.com/socket6.png)
 
 运行结果：
+
 ```
 [root@test shell]# python test.py 
 已经将接收到的第1个数据返回给对方，内容为：i am 111111
@@ -230,3 +239,6 @@ windows调试助手发送消息：
 已经将接收到的第3个数据返回给对方，内容为：i am 333333
 已经将接收到的第4个数据返回给对方，内容为：i am 444444
 ```
+
+
+
