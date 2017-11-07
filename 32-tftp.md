@@ -69,6 +69,11 @@ udpSocket = socket(AF_INET, SOCK_DGRAM)
 #构造下载请求数据
 cmd_buf = struct.pack("!H8sb5sb",1,"test.jpg",0,"octet",0)
 
+#!表示 组织的数据是用来传递到网络上的，即大端格式
+#H表示 占用2个字节
+#s表示 一个字符，8s----等价于ssssssss
+#b表示 占用1个字节
+
 #发送下载文件请求数据到指定服务器
 sendAddr = (ip, 69)
 udpSocket.sendto(cmd_buf, sendAddr)
