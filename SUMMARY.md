@@ -75,5 +75,5 @@
   * [2.14 异步](2xi-tong-bian-cheng/214-yi-bu.md)
 * [3. 网络编程](wang-luo-bian-cheng.md)
   * [3.1 socket](31-socket.md)
-* [3.2 TFTP](32-tftp.md)
+  * [3.2 TFTP客户端](32-tftp.md)
 
